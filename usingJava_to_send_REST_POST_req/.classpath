@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/cucumber-reporting-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/htmlunit-driver-2.47.1-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium_JARs/Consolidated_JARs/okio-1.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
