@@ -29,6 +29,9 @@ Output:
      2. The OTP email generated will be checked in the email web application. The captured OTP will be displayed in Eclipse console
      3. The DeleteUser API will then be called
 
+Caution:
+Some web applications use CAPTCHA to detect whether any bot is consuming their application. The quick solution is to regularly delete web browser's cached history, else the CAPTCHA will get activated which will stop the automation
+
 Note:
 RegisterUser -> automated handling of external web application -> DeleteUser is just a demonstration frmaework.
 The framework can handle any number of upstream API calls, automatically handle any external web applications at any point of API operation and it can even handle any number of subsequent downstream API calls. It depends on how the freamework is configured to achieve a particular objective
