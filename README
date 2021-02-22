@@ -6,3 +6,29 @@ Step 2:
 Create a folder any where on local system
 
 Step 3:
+Copy all JAR and EXE files from path "Javacode/usingJava_to_send_REST_POST_req/Libraries/" to that folder
+
+Step 4:
+Open the project in Eclipse
+
+Step 5:
+Right-click on the project name and choose "Build Path -> Configure Build Path"
+Select "Libraries" tab
+Select "Classpath"
+Select "Add External JARs" and select only the JAR files saved in the newly created folder
+Click "Apply and Close"
+
+Step 6:
+In java class "invoke_SeleniumWD_verify_EmailOTP" change the path in line 19 (to work on Chrome web browser) / line 21 (to work on Firefox web browser). Give the path where the EXE files are stored in the newly created folder.
+
+Step 7:
+Select "DriverClass.java" and select "Run As -> Java Application"
+
+Output:
+     1. RegisterUser API will be called and User will be registered
+     2. The OTP email generated will be checked in the email web application. The captured OTP will be displayed in Eclipse console
+     3. The DeleteUser API will then be called
+
+Note:
+RegisterUser -> automated handling of external web application -> DeleteUser is just a demonstration frmaework.
+The framework can handle any number of upstream API calls, automatically handle any external web applications at any point of API operation and it can even handle any number of subsequent downstream API calls. It depends on how the freamework is configured to achieve a particular objective
